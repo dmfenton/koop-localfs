@@ -1,6 +1,9 @@
 # Koop Local FS
 *A filesystem plugin for koop that supports setting a root directory for all actions*
 
+[![npm][npm-img]][npm-url]
+[![travis][travis-image]][travis-url]
+
 ## Project goal
 
 In order to allow different koop modules to write to local disk without specifying a machine specific absolute path, this module resolves all relative paths to the same base directory. So you can call koop.fs.createReadStream(foo) and always know that you can open foo without changing the working directory.
@@ -40,3 +43,11 @@ koop.register(LocalFs)
 - mkdir: make a directory
 - rmdir: recursively remove directories
 - realpathSync: resolve the absolute path when given a relative path
+
+
+[npm-img]: https://img.shields.io/npm/v/koop-localfs.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/koop-localfs
+[travis-image]: https://img.shields.io/travis/koopjs/koop-localfs.svg?style=flat-square
+[travis-url]: https://travis-ci.org/koopjs/koop-localfs
+
+
