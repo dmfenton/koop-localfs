@@ -1,0 +1,35 @@
+{
+  "name": "koop-localfs",
+  "version": "1.0.0",
+  "description": "A local filesystem plugin for koop",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard src && tape test/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koopjs/koop-localfs.git"
+  },
+  "keywords": [
+    "koop",
+    "filesystem",
+    "local"
+  ],
+  "author": "Daniel Fenton <dfenton@esri.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/koopjs/koop-localfs/issues"
+  },
+  "homepage": "https://github.com/koopjs/koop-localfs#readme",
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "config": "^1.20.1",
+    "highland": "^2.7.4",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.5.2"
+  }
+}
