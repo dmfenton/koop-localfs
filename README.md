@@ -6,7 +6,7 @@
 
 ## Project goal
 
-In order to allow different koop modules to write to local disk without specifying a machine specific absolute path, this module resolves all relative paths to the same base directory. So you can call koop.fs.createReadStream(foo) and always know that you can open foo without changing the working directory.
+In order to allow different koop modules to write to local disk without specifying a machine specific absolute path, this module resolves all relative paths to the same base directory. So you can call`koop.fs.createReadStream('foo.txt')` and always know that you can open foo without changing the working directory.
 
 ## Usage
 
