@@ -62,6 +62,11 @@ Filesystem.prototype.mkdir = function (path, callback) {
 
 Filesystem.prototype.rmdir = function (path, callback) {
   path = this.realpathSync(path)
+  fs.rmdir(path, callback)
+}
+
+Filesystem.prototype.rmdirp = function (path, callback) {
+  path = this.realpathSync(path)
   rimraf(path, callback)
 }
 
