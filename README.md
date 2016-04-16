@@ -41,7 +41,8 @@ koop.register(LocalFs)
 - readFile: read a file from disk
 - unlink: delete a file
 - mkdir: make a directory
-- rmdir: recursively remove directories
+- rmdir: remove an empty directory
+- rmdirp: recursively remove a directory and its contents
 - realpathSync: resolve the absolute path when given a relative path
 
 
