@@ -33,6 +33,12 @@ Filesystem.prototype.createWriteStream = function (path, options) {
     input.destroy()
     fs.unlink(path)
   }
+
+  input.end = function (chunk) {
+    if (chunk) input.write(chunk)
+    input.write(_.nil)
+  }
+
   input
   .pipe(fs.createWriteStream(path))
   .on('error', function (e) { input.emit('error', e) })
