@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+### Fixed
+* Implement proper behavior on `readStream.end()`
+
 ## [1.1.0] - 2016-04-16
 ### Added
 * `rimdirp`: removes a directory and its contents
