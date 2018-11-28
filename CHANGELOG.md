@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
+## [1.1.2] - 2018-11-28
 ### Fixed
 * Add a empty function as callback to fs.unlink; fails without callback in Node 10.12
 
@@ -21,5 +21,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 * Initial release of filesystem that supports setting a root directory for all actions
 
+[1.1.2]: https://www.github.com/koopjs/koop-localfs/compare/v1.1.1...v1.1.2
+[1.1.1]: https://www.github.com/koopjs/koop-localfs/compare/v1.1.0...v1.1.1
 [1.1.0]: https://www.github.com/koopjs/koop-localfs/compare/v1.0.0...v1.1.0
 [1.0.0]: https://www.github.com/koopjs/koop-localfs/tree/v1.0.0
