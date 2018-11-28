@@ -50,7 +50,5 @@ koop.register(LocalFs)
 
 [npm-img]: https://img.shields.io/npm/v/koop-localfs.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/koop-localfs
-[travis-image]: https://img.shields.io/travis/koopjs/koop-localfs.svg?style=flat-square
-[travis-url]: https://travis-ci.org/koopjs/koop-localfs
-
-
+[travis-image]: https://img.shields.io/travis/koopjs/koop-filesystem-local.svg?style=flat-square
+[travis-url]: https://travis-ci.org/koopjs/koop-filesystem-local
