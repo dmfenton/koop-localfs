@@ -1,4 +1,6 @@
 # Koop Local FS
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/koopjs/koop-filesystem-local.svg)](https://greenkeeper.io/)
 *A filesystem plugin for koop that supports setting a root directory for all actions*
 
 [![npm][npm-img]][npm-url]
