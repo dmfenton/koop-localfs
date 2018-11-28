@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## Unreleased
+### Fixed
+* Add a empty function as callback to fs.unlink; fails without callback in Node 10.12
+
 ## [1.1.1] - 2016-06-08
 ### Fixed
 * Implement proper behavior on `readStream.end()`

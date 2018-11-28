@@ -31,7 +31,7 @@ Filesystem.prototype.createWriteStream = function (path, options) {
   const input = _()
   input.abort = function () {
     input.destroy()
-    fs.unlink(path)
+    fs.unlink(path, function () {})
   }
 
   input.end = function (chunk) {
