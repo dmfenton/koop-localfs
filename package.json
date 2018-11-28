@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koopjs/koop-localfs.git"
+    "url": "git+https://github.com/koopjs/koop-filesystem-local.git"
   },
   "keywords": [
     "koop",
@@ -18,9 +18,9 @@
   "author": "Daniel Fenton <dfenton@esri.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/koopjs/koop-localfs/issues"
+    "url": "https://github.com/koopjs/koop-filesystem-local/issues"
   },
-  "homepage": "https://github.com/koopjs/koop-localfs#readme",
+  "homepage": "https://github.com/koopjs/koop-filesystem-local#readme",
   "devDependencies": {
     "standard": "^10.0.3",
     "tap-spec": "^4.1.1",
