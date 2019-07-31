@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "config": "^3.0.1",
-    "highland": "^2.7.4",
+    "highland": "2.13.4",
     "mkdirp": "^0.5.1",
     "rimraf": "^2.5.2"
   }
