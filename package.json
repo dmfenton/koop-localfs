@@ -27,7 +27,7 @@
     "tape": "^4.5.1"
   },
   "dependencies": {
-    "config": "^3.0.1",
+    "config": "^3.2.6",
     "highland": "^2.7.4",
     "mkdirp": "^0.5.1",
     "rimraf": "^3.0.0"
