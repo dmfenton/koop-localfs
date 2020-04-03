@@ -29,7 +29,7 @@
   "dependencies": {
     "config": "^3.0.1",
     "highland": "^2.7.4",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^1.0.4",
     "rimraf": "^3.0.0"
   }
 }
